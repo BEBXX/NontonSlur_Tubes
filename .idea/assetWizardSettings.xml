@@ -3,6 +3,11 @@
   <component name="WizardSettings">
     <option name="children">
       <map>
+        <entry key="imageWizard">
+          <value>
+            <PersistentState />
+          </value>
+        </entry>
         <entry key="vectorWizard">
           <value>
             <PersistentState>
@@ -14,8 +19,8 @@
                         <option name="values">
                           <map>
                             <entry key="assetSourceType" value="FILE" />
-                            <entry key="outputName" value="account_circle_fill0_wght400_grad0_opsz48" />
-                            <entry key="sourceFile" value="C:\Users\ASUS\Downloads\account_circle_FILL0_wght400_GRAD0_opsz48.svg" />
+                            <entry key="outputName" value="check_circle" />
+                            <entry key="sourceFile" value="C:\Users\ASUS\Downloads\check_circle_FILL0_wght400_GRAD0_opsz48.svg" />
                           </map>
                         </option>
                       </PersistentState>

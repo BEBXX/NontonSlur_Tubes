@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -37,18 +38,115 @@
         android:layout_marginTop="5dp"/>
 
     <ImageView
+        android:id="@+id/box"
         android:layout_width="match_parent"
-        android:layout_height="407dp"
+        android:layout_height="400dp"
         android:layout_centerInParent="true"
         android:layout_marginLeft="50dp"
         android:src="@drawable/rectangle3" />
 
     <ImageView
-        android:layout_width="126dp"
-        android:layout_height="126dp"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="140dp"
         android:src="@drawable/lingkaran"/>
+
+    <ImageView
+        android:layout_width="108dp"
+        android:layout_height="108dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/lingkaran"
+        app:tint="#212121" />
+
+    <ImageView
+        android:layout_width="108dp"
+        android:layout_height="108dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:src="@drawable/check_circle"
+        app:tint="#FFAB01" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="275dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Transaksi Berhasil"
+        android:textColor="#FFFF"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_alignLeft="@id/box"
+        android:paddingLeft="25dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="Tanggal"
+        android:textColor="#FFFF"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:layout_alignRight="@id/box"
+        android:paddingRight="25dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="13-11-2022"
+        android:textColor="#FFFF"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_alignLeft="@id/box"
+        android:paddingLeft="25dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="Rincian: "
+        android:textColor="#FFFF"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="425dp"
+        android:layout_alignLeft="@id/box"
+        android:paddingLeft="25dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="Pembelian Paket Silver "
+        android:textColor="#FFFF"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="425dp"
+        android:layout_alignLeft="@id/box"
+        android:layout_alignBottom="@id/box"
+        android:paddingLeft="25dp"
+        android:paddingBottom="25dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="Total :"
+        android:textColor="#FFFF"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="425dp"
+        android:layout_alignRight="@id/box"
+        android:layout_alignBottom="@id/box"
+        android:paddingRight="25dp"
+        android:paddingBottom="25dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="Rp.15000"
+        android:textColor="#FFFF"
+        android:textSize="14sp" />
 
     <Button
         android:id="@+id/confirm_button1"
