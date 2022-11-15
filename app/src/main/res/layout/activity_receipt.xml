@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#212121"
+    tools:context=".MainActivity"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/loginlogo"
+        android:layout_marginBottom="22dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nonton"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="20sp"
+        android:textColor="#FFAB01"
+        android:layout_marginLeft="51dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Slur"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="127dp"
+        android:layout_marginTop="5dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="407dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="50dp"
+        android:src="@drawable/rectangle3" />
+
+    <ImageView
+        android:layout_width="126dp"
+        android:layout_height="126dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:src="@drawable/lingkaran"/>
+
+    <Button
+        android:id="@+id/confirm_button1"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:layout_marginTop="740dp"
+        android:backgroundTint="#FFAB01"
+        android:fontFamily="@font/poppinsbold"
+        android:padding="10dp"
+        android:text="Beranda"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="14sp"/>
+
+
+
+</RelativeLayout>

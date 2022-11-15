@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#212121"
+    tools:context=".MainActivity"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/loginlogo"
+        android:layout_marginBottom="22dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nonton"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="20sp"
+        android:textColor="#FFAB01"
+        android:layout_marginLeft="51dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Slur"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="127dp"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih Paket Premium"
+        android:fontFamily="@font/poppinsbold"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_below="@id/image1"
+        android:layout_marginBottom="22dp"
+        />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text1"
+        android:layout_marginBottom="22dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Bronze"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/image_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text2"
+        android:layout_marginBottom="22dp"
+        android:src="@drawable/user_bronze" />
+
+    <TextView
+        android:id="@+id/textbronze1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text2"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="+ 1 Day Premium"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textbronze2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp."
+        android:layout_below="@id/textbronze1"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="16sp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/textbronze3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3.000"
+        android:layout_below="@id/textbronze2"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="16sp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_button1"
+        android:layout_marginBottom="22dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Silver"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/image_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text3"
+        android:layout_marginBottom="22dp"
+        android:src="@drawable/user_silver" />
+
+    <TextView
+        android:id="@+id/textsilver1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+ 1 Week Premium"
+        android:layout_below="@id/text3"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="16sp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/textsilver2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp."
+        android:layout_below="@id/textsilver1"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="16sp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/textsilver3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="15.000"
+        android:layout_below="@id/textsilver2"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="16sp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image_button2"
+        android:layout_marginBottom="22dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Gold"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/image_button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text4"
+        android:layout_marginBottom="22dp"
+        android:src="@drawable/user_gold" />
+
+    <TextView
+        android:id="@+id/textgold1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text4"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="+ 1 Month Premium"
+        android:textColor="#ffffff"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textgold2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rp."
+        android:layout_below="@id/textgold1"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="16sp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/textgold3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="50.000"
+        android:layout_below="@id/textgold2"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="16sp"
+        android:textColor="#ffffff"/>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">NontonSlur</string>
+    <string name="LogIn">LogIn</string>
+    <string name="SignUp">SignUp</string>
+    <string name="SignIn">SignIn</string>
+    <string name="Email">Email</string>
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="ConfirmPassword">Confirm Password</string>
+    <string name="Email_or_Username">Email or Username</string>
+    <string name="Belum_punya_akun">Belum punya akun?</string>
+    <string name="Sudah_punya_akun">Sudah punya akun?</string>
+    <string name="Setuju_dengan_persyaratan_yang_ada">Setuju dengan persyaratan yang ada</string>
+    <string name="LogOut">Log Out</string>
+
+</resources>

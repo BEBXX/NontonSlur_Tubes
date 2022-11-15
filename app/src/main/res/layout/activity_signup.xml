@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".MainActivity"
+    android:padding="16dp">
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/loginlogo"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nonton"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="20sp"
+        android:textColor="#FFAB01"
+        android:layout_marginLeft="74dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Slur"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="520dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/rectangle"
+        android:orientation="vertical"
+        android:padding="40dp"
+        tools:ignore="ExtraText">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:fontFamily="@font/poppinsbold"
+            android:text="@string/SignUp"
+            android:textColor="#FFAB01"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edit_login3"
+            android:layout_width="214dp"
+            android:layout_height="44dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/fill_rectangel"
+            android:fontFamily="@font/poppinssemibold"
+            android:hint="@string/Email"
+            android:padding="10dp"
+            android:textColor="#1B191C"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/edit_login4"
+            android:layout_width="214dp"
+            android:layout_height="44dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/fill_rectangel"
+            android:fontFamily="@font/poppinssemibold"
+            android:hint="@string/Username"
+            android:padding="10dp"
+            android:textColor="#1B191C"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/edit_login5"
+            android:layout_width="214dp"
+            android:layout_height="44dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/fill_rectangel"
+            android:fontFamily="@font/poppinssemibold"
+            android:hint="@string/Password"
+            android:padding="10dp"
+            android:textColor="#1B191C"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/edit_login6"
+            android:layout_width="214dp"
+            android:layout_height="44dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/fill_rectangel"
+            android:fontFamily="@font/poppinssemibold"
+            android:hint="@string/ConfirmPassword"
+            android:padding="10dp"
+            android:textColor="#1B191C"
+            android:textSize="14sp" />
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="@string/Setuju_dengan_persyaratan_yang_ada"
+            android:fontFamily="@font/poppinsbold"
+            android:textColor="#FFFFFF"
+            android:textSize="8sp"
+            android:buttonTint="#FFAB01"/>
+
+        <Button
+            android:id="@+id/confirm_button3"
+            android:layout_width="214dp"
+            android:layout_height="54dp"
+            android:layout_marginLeft="5dp"
+            android:backgroundTint="#FFAB01"
+            android:padding="10dp"
+            android:text="@string/SignIn"
+            android:textAllCaps="false"
+            android:fontFamily="@font/poppinsbold"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="@font/poppinsbold"
+            android:text="@string/Sudah_punya_akun"
+            android:textColor="#FFFF"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/confirm_button4"
+            android:layout_width="214dp"
+            android:layout_height="54dp"
+            android:layout_marginLeft="5dp"
+            android:backgroundTint="#FFAB01"
+            android:padding="10dp"
+            android:text="@string/LogIn"
+            android:textAllCaps="false"
+            android:fontFamily="@font/poppinsbold"
+            android:textColor="#000000"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
